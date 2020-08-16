@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body{
+    font-family: 'Prata', serif;
+    font-size: 20px;
+}
+.titulo{
+    color: #008080;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0 0 0 ;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+      
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(192, 28%, 21%, 0.671), hsla(0, 19%, 88%, 0.664)), url(../img/ingenieria.jpg);
+    background: linear-gradient(to right, hsla(192, 28%, 21%, 0.671), hsla(0, 19%, 88%, 0.664)), url(../img/ingenieria.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    background-size: cover;
+    background-attachment: fixed;
+}
+.texto-cabecera{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.texto-cabecera h1{
+    font-size: 50px;
+}
+.texto-cabecera h2{
+    font-size: 30px;
+}
+
+/*barra de menu*/
+.navegacion ul {
+    margin: 0;
+    padding: 30px 0 0px 0;
+    list-style: none;
+    text-align: center;
+}
+.navegacion ul li{
+    display: inline-block;
+}
+.navegacion ul li a{
+    color: black;
+    
+    text-decoration: none;
+    margin-right: 10px;
+    display: block;
+    text-align: center;
+}   
+.navegacion ul li a:hover{
+    background: #b1b1b1;
+}
+
+/*Introduccion de la pagina*/
+.contenedor p{
+    text-align: justify;
+    padding: 0px 100px 0px 100px ;
+}
+.contenedor a{
+    display: list-item;
+}
+
+/*¿que es ingeneria de software?*/
+.contenedor-que-es{
+    
+    justify-content: space-evenly;
+}
+.imagen-que-es{
+    width: 48%;
+    
+}
+.contenedor-que-es .contenedor-texto{
+    width: 48%;
+    float: right;
+    text-align: justify;
+    padding: 150px 100px 0 0;
+    
+}
+.contenedor-texto p{
+    margin-bottom: 15px;
+    background: #81b27f;
+    
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+/*Objetivos*/
+.contenedor-objetivos p{
+    text-align: justify;
+    padding: 15px 100px 60px 100px ;
+}.contenedor-objetivos a{
+    display: list-item;
+}
+
+/*Indice*/
+.navegacion-indice ul {
+    margin: 0;
+    padding: 0px 100px 30px 100px ;
+    list-style: none;
+    text-align: center;
+}
+.indice h2{
+    padding: 0px 100px 0px 150px ;
+}
+.navegacion-indice ul li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    display: block;
+    text-align: left;
+    transition: all 0.4s linear;
+}   
+.navegacion-indice ul li a:hover{
+    text-decoration: underline;
+}  
+
+/*footer*/
+
+.pie{
+    clear: both;
+    padding: 60px 0 30 0;
+    background: #000000;
+    text-align: center;
+    color:#008080;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
